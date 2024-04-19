@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 1280px;
+    height: auto;
+}
+
+main{
+    width: 1280px;
+    height: auto;
+}
+
+footer{
+    width: 1280px;
+    height: auto;
+}
+
+.Seccion0{
+    background-color: #f5f5f5;
+}
+
+.Seccion1{
+    background-color: #eeeeee;
+}
+
+.Seccion2{
+    background-color: #e0e0e0;
+}
+
+.Seccion3{
+    background-color: #D3D3D3;
+}
+
+.Seccion4{
+    background-color: #C0C0C0;
+}
+
+.Seccion5{
+    background-color: #808080;
+}
+
+.Seccion6{
+    background-color: #555555;
+}
+
+
+.bloques {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.imagenprincipal {
+    background-image: url('../img/fondo_vectores_gris.jpg');
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-position: center; /* Posición de la imagen */
+    /* Otros estilos que desees aplicar a este elemento */
+    top: 73px;
+    left: 0px;
+    width: 1280px;
+    height: auto;
+    opacity: 1;
+}
+
+.titulo {
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    font-family: "Raleway", sans-serif;
+    font: normal normal medium;
+    font-weight: normal;
+    height: 59px;
+    padding: 1vh;
+}
+
+.imagen_card{
+    width: 40%;
+    height: auto;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente */
+}
+
+.imagen_text {
+    display: flex;
+    justify-content: flex-start;
+    width: 1280px;
+    height: 348px;
+    top: 800px;
+    left: 0px;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+p {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: medium;
+}
+
+.table-padding{
+    padding: 10px; /* Puedes ajustar el valor según tus necesidades */
+}
