@@ -107,3 +107,8 @@ p {
 .table-padding{
     padding: 10px; /* Puedes ajustar el valor según tus necesidades */
 }
+
+.footer {
+    font-size: 22px;
+    color: white;
+}
